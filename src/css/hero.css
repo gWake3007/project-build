@@ -1,0 +1,10 @@
+.hero-section{
+    background-color: brown;
+}
+
+.hero-section-text{
+    font-size: 20px;
+    font-weight: 1.5;
+    letter-spacing: 0.03em;
+    color: aqua;
+}
