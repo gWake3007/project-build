@@ -1,0 +1,151 @@
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-contact {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #f1f1f1;
+}
+
+.form-contact-text {
+  width: 531px;
+
+  padding: 90px 28px 61px 28px;
+}
+
+.text {
+  margin-bottom: 19px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.55;
+  text-align: justify;
+  letter-spacing: 0.03em;
+
+  color: #ff3839;
+}
+
+.form-name-red {
+  color: #ff3839;
+}
+.form-name {
+  margin-bottom: 31px;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.form-text {
+  margin-bottom: 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+
+  color: #696969;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 533px;
+
+  gap: 24px;
+  margin-bottom: 33px;
+}
+
+.form-label {
+  display: flex;
+}
+
+.form-input {
+  padding: 0 10px;
+  width: 100%;
+  height: 40px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.55;
+
+  letter-spacing: 0.03em;
+
+  background: #ffffff;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+
+  color: #000000;
+}
+
+.form-comment {
+  display: flex;
+}
+.modal-comment {
+  padding: 0 10px;
+  width: 100%;
+  min-height: 149px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.11;
+  letter-spacing: 0.03em;
+
+  background: #ffffff;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+
+  color: #000000;
+
+  resize: none;
+}
+
+.btm {
+  display: flex;
+
+  width: 181px;
+  height: 40px;
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.11;
+  letter-spacing: 0.03em;
+  align-items: center;
+
+  color: #ffffff;
+  background-color: #ff3839;
+  cursor: pointer;
+}
+
+.img {
+}
